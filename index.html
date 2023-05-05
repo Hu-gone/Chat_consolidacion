@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link bootstrap>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+
+<body>
+
+   
+
+<!-- header -->
+    <header class="cabecera">
+        <button class="cabecera__boton" onclick="mostrarMenuPagina()">Mostrar Menu</button>
+        <div class="cabecera__contenedorLista">
+            <ul class="cabecera__lista">
+                <li class="cabecera__lista__elemento">Página Principal |</li>
+                <li class="cabecera__lista__elemento">Preguntas Frecuentes |</li>
+                <li class="cabecera__lista__elemento">Manuales y Tutoriales |</li>
+                <li class="cabecera__lista__elemento">Noticias |</li>
+                <li class="cabecera__lista__elemento">Calendario |</li>
+                <li class="cabecera__lista__elemento">Administracion de perfil |</li>
+                <li class="cabecera__lista__elemento">Organigrama |</li>
+                <li class="cabecera__lista__elemento">Chat</li>
+            </ul>
+
+        </div>
+    </header>
+ <!-- fin de header -->   
+
+
+<!-- sector izquierda-->
+    <main class="principal">
+        <aside class="principal__izquierda">
+            <article class="principal__izquierda__buscador">
+                <form action="" method="">
+                    <input type="text" id="txtbusqueda" name="txtbusqueda" size="16"><input type="button" value="buscar">
+                </form>
+            </article>
+<hr>
+            <article class="principal__izquierda__mostrarChats">
+                <form action="" method="">
+                    <input class="principal__izquierda__mostrarChats__boton" type="button" value="mostrar chats" onclick="mostrarContenedoresChat()">
+                </form>
+            </article>
+<hr>
+            <article class="principal__izquierda__chat">
+                <aside class="principal__izquierda__contenedortextoIzquierda">
+                    <figure class="principal__izquierda__contenedorimagen">
+                        <img class="principal__izquierda__contenedorimagen__contenido" src="assets/img/deidara.jpg" alt="deidara">
+                    </figure>
+                </aside>
+
+                <aside class="principal__izquierda__contenedortextoDerecha">
+                    <strong>Deidara<span class="principal__izquierda__fecha"> 15/04/2023</span></strong>
+                </aside>
+            </article>
+<hr>            
+            <article class="principal__izquierda__chat">
+                <aside class="principal__izquierda__contenedortextoIzquierda">
+                    <figure class="principal__izquierda__contenedorimagen">
+                        <img class="principal__izquierda__contenedorimagen__contenido" src="assets/img/itachi.jpg" alt="itachi">
+                    </figure>
+                </aside>
+
+                <aside class="principal__izquierda__contenedortextoDerecha">
+                    <strong>Itachi<span class="principal__izquierda__fecha"> 26/04/2023</span></strong>
+                </aside>
+            </article>
+<hr>
+            <article class="principal__izquierda__chat">
+                <aside class="principal__izquierda__contenedortextoIzquierda">
+                    <figure class="principal__izquierda__contenedorimagen">
+                        <img class="principal__izquierda__contenedorimagen__contenido" src="assets/img/kisame.jpg" alt="kisame">
+                    </figure>
+                </aside>
+
+                <aside class="principal__izquierda__contenedortextoDerecha">
+                    <strong>Kisame<span class="principal__izquierda__fecha"> 01/05/2023</span></strong>
+                </aside>
+            </article>
+<hr>
+            <article class="principal__izquierda__chat">
+                <aside class="principal__izquierda__contenedortextoIzquierda">
+                    <figure class="principal__izquierda__contenedorimagen">
+                        <img class="principal__izquierda__contenedorimagen__contenido" src="assets/img/konan.jpg" alt="konan">
+                    </figure>
+                </aside>
+
+                <aside class="principal__izquierda__contenedortextoDerecha">
+                    <strong>Konan<span class="principal__izquierda__fecha"> 30/04/2023</span></strong>
+                </aside>
+            </article>
+<hr>
+            <article class="principal__izquierda__chat">
+                <aside class="principal__izquierda__contenedortextoIzquierda">
+                    <figure class="principal__izquierda__contenedorimagen">
+                        <img class="principal__izquierda__contenedorimagen__contenido" src="assets/img/pain.jpg" alt="pain">
+                    </figure>
+                </aside>
+
+                <aside class="principal__izquierda__contenedortextoDerecha">
+                    <strong>Pain<span class="principal__izquierda__fecha"> 24/04/2023</span></strong>
+                </aside>
+            </article>
+        </aside>
+<!-- sector izquierda -->
+
+<!-- sector derecho -->
+        <section class="principal__derecha">
+            <strong style="text-align: center;">Itachi
+                <img src="assets/img/itachi.jpg" class="avatar_pj" style="align-items: left;">
+            </strong>
+            <hr>
+            <p class="chat_derecha" style="text-align: right;">Tienen noticias sobre el jinchuriki de 9 colas?</p>
+            <hr>
+            <p class="chat_izquierda" style="text-align: left;">Nos pudimos infiltrar en la aldea, pero aun no lo encontramos</p>
+            <hr>
+            <p class="chat_derecha" style="text-align: right;">No llamen la atención</p>
+            <hr>
+            <p class="chat_izquierda" style="text-align: left;">Entendido, aún hay conmoción por la muerte del hokage</p>
+            <hr>
+            <p class="chat_derecha" style="text-align: right;">Bien. Deidara y Sasori van en busca del 1° cola</p>
+            <hr>
+            <p class="chat_izquierda" style="text-align: left;">Te tendré informado por si hay nuevas noticias!</p>
+            <hr>
+            <div class="dropdown_cajacomentarios">
+                <div class="dropdown" style="float:left;">
+                    <button class="dropbtn">Adjuntar</button>
+                    <div class="dropdown-content" style="left:0;">
+                    <a href="#">Adjuntar imagen</a>
+                    <a href="#">Adjuntar archivo</a>
+                    <a href="#">Enviar audio</a>
+                    </div>
+                </div>
+                <article class="caja_chat">
+                    <form action="" method="">
+                        <input type="text" id="txtmensaje" name="txtmensaje" size="16"><input type="button" value="Enviar">
+                    </form>
+                </article>
+            </div>
+        </section>
+    </main>
+<!-- fin sector derecho -->
+
+
+<!-- footer -->
+    <footer class="pie">
+        <p class="pie__parrafo">Chat app secreto para que no detecten tu ip ®</p>
+    </footer>
+<!-- fin footer -->
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
